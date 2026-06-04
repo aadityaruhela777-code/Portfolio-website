@@ -1,0 +1,163 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #050816;
+  color: white;
+  font-family: "Inter", sans-serif;
+  overflow-x: hidden;
+}
+
+/* Premium Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #050816;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, #9333ea, #ec4899);
+  border-radius: 20px;
+}
+
+/* Section Wrapper */
+.section-container {
+  @apply relative py-28 px-[8vw] lg:px-[14vw] overflow-hidden;
+}
+
+/* Section Heading */
+.section-subtitle {
+  @apply uppercase tracking-[6px] text-purple-400 text-sm mb-4;
+}
+
+.section-title {
+  @apply text-5xl font-extrabold text-white;
+}
+
+.section-divider {
+  @apply w-28 h-1 bg-gradient-to-r from-purple-500 to-pink-500 mx-auto mt-5 rounded-full;
+}
+
+.section-description {
+  @apply text-gray-400 mt-6 text-lg max-w-3xl mx-auto leading-8;
+}
+
+/* Premium Card */
+.glass-card {
+  @apply relative bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl shadow-2xl overflow-hidden transition-all duration-500;
+}
+
+.glass-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 0 40px rgba(168, 85, 247, 0.35);
+}
+
+/* Glow Border */
+.glow-border::before {
+  content: "";
+  position: absolute;
+  inset: -1px;
+  border-radius: 24px;
+  padding: 1px;
+  background: linear-gradient(
+    135deg,
+    rgba(168, 85, 247, 0.7),
+    rgba(236, 72, 153, 0.5),
+    rgba(59, 130, 246, 0.4)
+  );
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
+
+/* Premium Buttons */
+.primary-btn {
+  @apply px-6 py-3 rounded-2xl bg-gradient-to-r from-purple-600 to-pink-500 text-white font-semibold transition duration-300;
+}
+
+.primary-btn:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 30px rgba(168, 85, 247, 0.5);
+}
+
+.secondary-btn {
+  @apply px-6 py-3 rounded-2xl border border-purple-500 text-purple-300 font-semibold transition duration-300;
+}
+
+.secondary-btn:hover {
+  @apply bg-purple-600 text-white;
+}
+
+/* Skill Tags */
+.skill-tag {
+  @apply px-4 py-2 rounded-full bg-gradient-to-r from-purple-600/20 to-pink-500/20 border border-purple-500/30 text-purple-200 text-sm transition duration-300;
+}
+
+.skill-tag:hover {
+  transform: scale(1.05);
+  border-color: rgb(236 72 153);
+}
+
+/* Background Grid */
+.grid-bg {
+  position: absolute;
+  inset: 0;
+  opacity: 0.07;
+  background-image:
+    linear-gradient(to right, rgba(255,255,255,0.07) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255,255,255,0.07) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+/* Animated Glow */
+.glow-1,
+.glow-2,
+.glow-3,
+.glow-4 {
+  position: absolute;
+  border-radius: 9999px;
+  filter: blur(120px);
+}
+
+.glow-1 {
+  top: -10%;
+  left: -10%;
+  width: 500px;
+  height: 500px;
+  background: rgba(168, 85, 247, 0.25);
+}
+
+.glow-2 {
+  bottom: -10%;
+  right: -10%;
+  width: 500px;
+  height: 500px;
+  background: rgba(59, 130, 246, 0.18);
+}
+
+.glow-3 {
+  top: 40%;
+  left: 50%;
+  width: 350px;
+  height: 350px;
+  background: rgba(236, 72, 153, 0.12);
+}
+
+.glow-4 {
+  top: 70%;
+  left: 10%;
+  width: 250px;
+  height: 250px;
+  background: rgba(6, 182, 212, 0.1);
+}
