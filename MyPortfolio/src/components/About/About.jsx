@@ -51,7 +51,7 @@ const About = () => {
 
           {/* Main Heading */}
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-extrabold leading-tight text-white">
-            Hi, I’m <br />
+            Hi, I'm <br />
 
             <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-blue-500 bg-clip-text text-transparent">
               Aaditya Ruhela
@@ -92,13 +92,10 @@ const About = () => {
             {/* Download CV */}
             <a
               href="/Aaditya_Ruhela_Resume%20(1)%20(1).pdf"
-  download="Aaditya_Ruhela_Resume.pdf"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="px-8 py-4 rounded-2xl bg-gradient-to-r from-purple-600 to-pink-500 ..."
->
-  Download CV
-</a>
+              download="Aaditya_Ruhela_Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-8 py-4 rounded-2xl bg-gradient-to-r from-purple-600 to-pink-500 text-white font-semibold text-lg hover:scale-105 transition duration-300 shadow-[0_0_40px_rgba(168,85,247,0.5)]"
             >
               Download CV
             </a>
