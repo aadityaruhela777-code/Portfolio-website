@@ -91,10 +91,14 @@ const About = () => {
 
             {/* Download CV */}
             <a
-              href="https://drive.google.com/file/d/1_pLl2wjYVCU-wnqXIhjhYr0YC0SJXvwv/view?usp=sharing"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="px-8 py-4 rounded-2xl bg-gradient-to-r from-purple-600 to-pink-500 text-white font-semibold text-lg hover:scale-105 transition duration-300 shadow-[0_0_40px_rgba(168,85,247,0.5)]"
+              href="/Aaditya_Ruhela_Resume%20(1)%20(1).pdf"
+  download="Aaditya_Ruhela_Resume.pdf"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="px-8 py-4 rounded-2xl bg-gradient-to-r from-purple-600 to-pink-500 ..."
+>
+  Download CV
+</a>
             >
               Download CV
             </a>
