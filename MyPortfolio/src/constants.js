@@ -37,7 +37,7 @@ import mylogo from './assets/education_logo/mylogo.png';
 // =======================
 
 import aiNotesImg from './assets/projects/ai-notes.png';
-import airbnbImg from './assets/projects/airbnb.png';
+import ruhelabnbImg from './assets/projects/ruhelabnb.png';
 import portfolioImg from './assets/projects/portfolio.png';
 
 // =======================
@@ -168,26 +168,27 @@ export const projects = [
 
   {
     id: 1,
-    title: "Airbnb Clone",
+    title: "RuhelaBnB",
     description:
-      "A full-stack Airbnb clone with property listings, authentication, image uploads, responsive UI, and booking-inspired functionality using the MERN stack.",
-    image: airbnbImg,
+      "RuhelaBnB is a modern full-stack Airbnb-inspired vacation rental platform where users can browse beautiful property listings, explore accommodation details, and enjoy a clean, responsive booking experience built with the MERN stack.",
+    image: ruhelabnbImg,
     tags: [
       "React JS",
       "Node JS",
       "Express JS",
       "MongoDB",
-      "Bootstrap",
+      "Tailwind CSS",
+      "JWT",
     ],
-    github: "https://github.com/yourusername/airbnb-clone",
-    webapp: "https://your-airbnb-clone-link.com",
+    github: "https://github.com/aadityaruhela777-code/ruhelabnb",
+    webapp: "https://ruhelabnbwebsite.lovable.app/",
   },
 
   {
     id: 2,
     title: "Developer Portfolio",
     description:
-      "A modern animated portfolio website showcasing projects, education, skills, and experience with aesthetic dark UI design and responsive layout.",
+      "A modern animated portfolio website showcasing projects, technical skills, education, and professional experience with a premium responsive UI built using React and Tailwind CSS.",
     image: portfolioImg,
     tags: [
       "React JS",
