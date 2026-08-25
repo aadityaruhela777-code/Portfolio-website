@@ -37,8 +37,8 @@ import zidioLogo from './assets/education_logo/zidio_logo.png';
 // Certificate Images
 // =======================
 
-import apnaCertificate from './assets/certificates/apna_certificate.png';
-import zidioCertificate from './assets/certificates/zidio_certificate.png';
+import apnaCertificate from './assets/apna_certificate.png';
+import zidioCertificate from './assets/zidio_certificate.png';
 
 // =======================
 // Project Images
