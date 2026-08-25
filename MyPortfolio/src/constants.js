@@ -1,3 +1,4 @@
+```js
 // =======================
 // Skills Section Logos
 // =======================
@@ -115,6 +116,27 @@ export const experiences = [
       "Tailwind CSS",
     ],
   },
+
+  {
+    id: 1,
+    img: mylogo,
+    role: "Web Development Intern",
+    company: "Zidio Development",
+    date: "Jun 2026 - Aug 2026",
+    desc: "Completed a Web Development internship at Zidio Development, contributing to modern web application development, responsive user interfaces, and full-stack development workflows using current industry practices.",
+    skills: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React JS",
+      "Node JS",
+      "Express JS",
+      "MongoDB",
+      "REST APIs",
+      "Git",
+      "GitHub",
+    ],
+  },
 ];
 
 // =======================
@@ -196,7 +218,8 @@ export const projects = [
       "JavaScript",
       "Framer Motion",
     ],
-    github: "https://github.com/yourusername/portfolio",
-    webapp: "https://your-portfolio-link.com",
+    github: "https://github.com/aadityaruhela777-code/Portfolio-website",
+    webapp: "https://aadityaruhela-portfolio.onrender.com/",
   },
 ];
+```
