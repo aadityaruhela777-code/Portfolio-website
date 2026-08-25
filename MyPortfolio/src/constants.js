@@ -34,6 +34,13 @@ import mylogo from './assets/education_logo/mylogo.png';
 import zidioLogo from './assets/education_logo/zidio_logo.png';
 
 // =======================
+// Certificate Images
+// =======================
+
+import apnaCertificate from './assets/certificates/apna_certificate.png';
+import zidioCertificate from './assets/certificates/zidio_certificate.png';
+
+// =======================
 // Project Images
 // =======================
 
@@ -104,7 +111,9 @@ export const experiences = [
     role: 'Full Stack Web Development',
     company: 'APNA College',
     date: '2024 - 2025',
+
     desc: 'Completed full-stack web development specialization through the Sigma Batch. Built responsive MERN stack applications, modern UI interfaces, and scalable backend systems with real-world development practices.',
+
     skills: [
       'HTML',
       'CSS',
@@ -115,15 +124,19 @@ export const experiences = [
       'MongoDB',
       'Tailwind CSS',
     ],
+
+    certificate: apnaCertificate,
   },
 
   {
     id: 1,
     img: zidioLogo,
-    role: 'Web Development Internship',
+    role: 'Web Development Intern',
     company: 'Zidio Development',
     date: 'Jun 2026 - Aug 2026',
+
     desc: 'Completed a Web Development internship at Zidio Development, contributing to modern web application development, responsive user interfaces, and full-stack development workflows using current industry practices.',
+
     skills: [
       'HTML',
       'CSS',
@@ -136,6 +149,8 @@ export const experiences = [
       'Git',
       'GitHub',
     ],
+
+    certificate: zidioCertificate,
   },
 ];
 
