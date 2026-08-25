@@ -25,12 +25,13 @@ import netlifyLogo from './assets/tech_logo/netlify.png';
 import vercelLogo from './assets/tech_logo/vercel.png';
 
 // =======================
-// Education Logos
+// Education & Experience Logos
 // =======================
 
 import college_logo from './assets/education_logo/college_logo.png';
 import school_logo from './assets/education_logo/school_logo.png';
 import mylogo from './assets/education_logo/mylogo.png';
+import zidioLogo from './assets/education_logo/zidio_logo.png';
 
 // =======================
 // Project Images
@@ -118,8 +119,8 @@ export const experiences = [
 
   {
     id: 1,
-    img: mylogo,
-    role: 'Web Development Intern',
+    img: zidioLogo,
+    role: 'Web Development Internship',
     company: 'Zidio Development',
     date: 'Jun 2026 - Aug 2026',
     desc: 'Completed a Web Development internship at Zidio Development, contributing to modern web application development, responsive user interfaces, and full-stack development workflows using current industry practices.',
